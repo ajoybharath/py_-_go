@@ -1,0 +1,19 @@
+python
+
+pip install virtualenv
+
+virtualenv ENV
+
+source bin/activate
+
+deactivate
+
+
+It's a basic python script whch can be used to convert typed docs to handwritten ones
+test it out for a better understanding of installing modules and running python scripts
+
+https://github.com/ajoybharath/handwritten
+
+mkdir images pages
+python get_hand.py sample.txt
+python make_page.py
